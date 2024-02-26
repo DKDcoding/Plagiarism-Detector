@@ -1,5 +1,6 @@
 # Plagiarism-Detector
 Team members:
+
 Divyajot Kaur Dadiala
 
 Robert Barnstead
