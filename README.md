@@ -24,7 +24,7 @@ The KMP Algorithim has been designed to take two strings a text string and a pat
 
 The LCS Algorithm takes two strings A which is the text and B which is the pattern and checks for the longest common sub sequence. This is done using a 2d array of size [len(B)+1][len(A)+1] called check that gets filled retroactively. This is done by initializing each value to 0 then checking whether the value at A[i-1] and B[j-1] match, if they do we set check[i][j] equal to the value at check[i-1][j-1]+1. This increases the longest common subsequence by 1. If they are not a match we set the longest common subsequence eqaul to the max between A[i-1][j] or B[i][j-1]. Finally we return the value at check[a][b] or the last value in the array which is our longest commmon subsequence value.
 
-# Milestone 4
+## Milestone 4
 In this project, we are building a plagiarism detector and comparing three
 different algorithms KMP, LCS, and RabinCarp fingerprints. All three algorithms
 can be used to detect plagiarism in a text.
