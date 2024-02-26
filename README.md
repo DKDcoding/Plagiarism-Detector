@@ -1,8 +1,11 @@
 # Plagiarism-Detector
 Team members:
 Divyajot Kaur Dadiala
+
 Robert Barnstead
+
 Jusnoor Kaur Sachdeva
+
 ## Milestone 1
 For this milestone our team will be describing the first algorithm that we will use for
 our plagiarism detector. We shall be working on the Knuth-Morris-Pratt (KMP) string
